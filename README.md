@@ -1,12 +1,16 @@
+A number guessing game in Python involves a user attempting to guess a randomly generated number within a specified range. The game provides feedback to guide the user's guesses.
+Here's a basic implementation.
+
 import random
 
 def number_guessing_game():
-    # Generate a random number between 1 and 100
+    """Plays a number guessing game."""
+    print("Welcome to the Number Guessing Game!")
+    print("I'm thinking of a number between 1 and 100.")
+
+    # Generate a random number
     secret_number = random.randint(1, 100)
     attempts = 0
-
-    print("Welcome to the Number Guessing Game!")
-    print("I have chosen a number between 1 and 100. Can you guess it?")
 
     while True:
         try:
