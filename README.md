@@ -1,6 +1,3 @@
-A number guessing game in Python involves a user attempting to guess a randomly generated number within a specified range. The game provides feedback to guide the user's guesses.
-Here's a basic implementation.
-
 import random
 
 def number_guessing_game():
